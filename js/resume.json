@@ -1,0 +1,46 @@
+{"resume":[
+{
+"name":"About",
+"content":[
+    {"description":"I currently work and live in San Francisco, CA.  During the day I build software with AppDirect and at night I build (and talk about building) data visualizations for the web.  I am searching for an ethical aesthetic by making data mapping accessible on the web.  For fun I enjoy yoga, scotch, collage from found materials, exploring cities and reading a-plenty."}
+]},
+{"name":"Education",
+"content":[
+    {"name":"University of Virginia",
+    "description":"Bachelor of Science in Architecture with honors, 2009.  GPA : 3.75"},
+    {"name":"School of Architecture Student Council President",
+    "description":"Spearheaded program to start a distinguished major in architecture, served on student interview committees for faculty and dean search, organized and oversaw 15 council members in executing other projects."},
+    {"name":"Vicenza Study Abroad",
+    "description":"Toured and sketched northern Italy for five weeks with 21 other students."},
+    {"name":"LAR 651 Graphics Workshop TA",
+    "description":"Assisted Professor Robin Dripps in teaching 24 graduate students Rhinoceros 3D modeling software."},
+    {"name":"ARCH 201 Lessons in Making TA",
+    "description":"Guided 6 students through Professor Sanda Illiescu's first year lecture course. Built website gallery of student and TA work found at http://www.arch.virginia.edu/arch102/2009/index.html"}
+]},
+{"name":"Experience",
+"content":[
+    {"name":"AppDirect",
+    "date":"San Francisco, CA, 2010 - Present",
+    "description":"A juggler of all things product, design and front-end engineering on a small software team.  Joined as the first ui designer in a team of 10, rebuilt, organized and implemented tools for the front-end codebase, designed and implemented features.  Guided the overall growth and direction of the product from it being a single marketplace to an ecommerce cloud platform.  Worked with all parts of the team to create a collaborative design environment within a frenetic one-week release cycle.  Lead the growth of the ui design/engineering team."},
+    {"name":"CMG Landscape Architecture",
+    "date":"San Francisco, CA, June 2010",
+    "description":"Built models and assisted with design development of two gardens at the San Francisco Academy of Sciences."},
+    {"name":"Momentum Design Lab",
+    "date":"San Francisco, CA, October 2009-May 2010",
+    "description":"Associate user experience designer and front end web developer.  Designed many enterprise application interfaces, delivered graphic 'look and feels' for websites and applications, honed skills in front end development (css/html/javascript) and project development."},
+    {"name":"Robin Dripps and Lucia Phinney, Architects",
+    "date":"Batesville, VA, Summers 2008, 2009",
+    "description":"Cowrote course booklet for LAR 651 Graphics Workshop, including tutorials and examples exploring digital representations of landscape and architecture. Contributed to planning the class curriculum and publishing the course booklet.  Assisted in the fabrication and installation of scripted screened wall within the home of professors Robin Dripps and Lucia Phinney.  Developed graphics and built website for 'Project Albemarle', an interactive site which graphically informs Albemarle residents about county infrastructure and the future of their water resources, found at http://www.projectalbemarle.com."},
+    {"name":"Michielli + Wyetzner Architects",
+    "date":"New York, NY, Summer 2007, January 2008.",
+    "description":"Architectural Intern. Worked on team for FDNY's Greenpoint EMS Station through design development and assisted with other multiuse commercial projects. Created process and presentation physical models, drew design development and construction development drawings, and designed marketing brochures and proposals."}
+]},
+{"name":"Winnings",
+"content":[
+    {"description":"Best Dynamic/Interactive Data Visualization, Data In Sight 2011 Hackathon, San Francisco, CA."},
+    {"description":"Dripps-Phinney Design Award for Student Taking Substantial Risks in Order to Explore the Most Expansive Territory with Significant Invention, 2009."},
+    {"description":"Faculty of Architecture award for Public Service 2009."},
+    {"description":"Dean's List, University of Virginia, eight semesters."}
+]
+}
+]}
