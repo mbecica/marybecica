@@ -101,8 +101,10 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-
-/* STYLE */
+/* Site */
+a {
+cursor:pointer;
+}
 ul {
 list-style-type:none;
 margin:0;
@@ -116,12 +118,22 @@ border-bottom:1px solid #222;
 border-top:1px solid #222;
 top:0;
 width:96%;
+height:36px;
+}
+.splashon header {
+position:relative;
 }
 header h1 {
 float:left;
-color:#f2f2f2;
 margin:0;
 font-size:1.6em;
+}
+header h1 a {
+color:#f2f2f2;
+}
+header h1 a:visited,
+header h1 a:active {
+color:#f2f2f2;
 }
 header ul {
 float:right;
@@ -131,7 +143,7 @@ header ul li {
 display:inline;
 }
 header ul li a {
-color:#f4f4f4;
+color:#f2f2f2;
 padding:0 10px;
 font-size:1.2em;
 text-decoration:none;
@@ -140,8 +152,21 @@ header ul li a:hover {
 text-decoration:underline;
 color:#fff;
 }
+header li a:visited {
+color:#fff;
+}
+header li a.active {
+font-weight:bold;
+}
 #main {
 padding:50px 20px;
+}
+.splashon #main {
+padding:0;
+}
+.splash {
+position:relative;
+background:#eee;
 }
 /* Resume */
 #resume h2 {
