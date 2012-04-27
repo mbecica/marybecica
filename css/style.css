@@ -135,20 +135,20 @@ header h1 a:visited,
 header h1 a:active {
 color:#f2f2f2;
 }
-header ul {
+header #nav {
 float:right;
 padding-top:5px;
 }
-header ul li {
+header li {
 display:inline;
 }
-header ul li a {
+header #nav li a {
 color:#f2f2f2;
 padding:0 10px;
 font-size:1.2em;
 text-decoration:none;
 }
-header ul li a:hover {
+header #nav li a:hover {
 text-decoration:underline;
 color:#fff;
 }
@@ -158,11 +158,13 @@ color:#fff;
 header li a.active {
 font-weight:bold;
 }
+header #links {
+float:left;
+display:inline;
+}
 #main {
 padding:50px 20px;
-}
-.splashon #main {
-padding:0;
+display:none;
 }
 .splash {
 position:relative;

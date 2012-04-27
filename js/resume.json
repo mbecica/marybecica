@@ -2,20 +2,12 @@
 {
 "name":"About",
 "content":[
-    {"description":"I currently work and live in San Francisco, CA.  During the day I build software with AppDirect and at night I build (and talk about building) data visualizations for the web.  I am searching for an ethical aesthetic by making data mapping accessible on the web.  For fun I enjoy yoga, scotch, collage from found materials, exploring cities and reading a-plenty."}
+    {"description":"I currently work and live in San Francisco, CA.  I am searching for an ethical aesthetic by making data mapping accessible on the web.  For fun I enjoy yoga, scotch, collage from found materials, exploring cities and reading a-plenty."}
 ]},
 {"name":"Education",
 "content":[
     {"name":"University of Virginia",
-    "description":"Bachelor of Science in Architecture with honors, 2009.  GPA : 3.75"},
-    {"name":"School of Architecture Student Council President",
-    "description":"Spearheaded program to start a distinguished major in architecture, served on student interview committees for faculty and dean search, organized and oversaw 15 council members in executing other projects."},
-    {"name":"Vicenza Study Abroad",
-    "description":"Toured and sketched northern Italy for five weeks with 21 other students."},
-    {"name":"LAR 651 Graphics Workshop TA",
-    "description":"Assisted Professor Robin Dripps in teaching 24 graduate students Rhinoceros 3D modeling software."},
-    {"name":"ARCH 201 Lessons in Making TA",
-    "description":"Guided 6 students through Professor Sanda Illiescu's first year lecture course. Built website gallery of student and TA work found at http://www.arch.virginia.edu/arch102/2009/index.html"}
+    "description":"Bachelor of Science in Architecture with honors, 2009.  School of Architecture Student Council President, 2008-2009.  TA for LAR 651 (graduate course in Rhino 3D modeling software) and ARCH 201 (first year lecture course on aesthetics and making)."}
 ]},
 {"name":"Experience",
 "content":[
