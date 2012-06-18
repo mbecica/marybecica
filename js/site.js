@@ -7,6 +7,9 @@ $(function() {
 			splashOn(true);
 		});
 
+		var resumeLoad = false,
+				workLoad = false;
+
 		var splashOn = function(mode, link) {
 			if (mode) {
 				$('#main').hide();
@@ -31,10 +34,17 @@ $(function() {
 				if (link.attr('id') == 'resumelink') {
 					//load resume
 					$('#resume').show();
-					makeResume();
+					$('#work').hide();
+					if (!resumeLoad) {
+						makeResume();
+					}
 				} else if (link.attr('id') == 'worklink') {
 					//load Work
 					$('#resume').hide();
+					$('#work').show();
+					if (!workLoad) {
+						makeWork();
+					}
 				}
 			}
 		}
@@ -48,7 +58,26 @@ $(function() {
 					$.each(data["resume"], function(i, d) {
 						$('#resume').append(resumeTemplate(d));
 					});
+					resumeLoad = true;
+				}
+			});
+		}
+		var makeWork = function() {
+			//Work
+			var workEl = $('#work-template').html();
+			var workTemplate = Handlebars.compile(workEl);
+			$.ajax({
+				url:"js/work.json",
+				success:function(data) {
+					$.each(data["work"], function(i, d) {
+						$('#work').append(workTemplate(d));
+					});
+					workLoad = true;
 				}
 			});
 		}
 });
+
+var launch = function(href) {
+	window.open(href);
+}

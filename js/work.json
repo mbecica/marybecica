@@ -1,0 +1,69 @@
+{"work":[
+		{
+		"name":"Data Sketches",
+		"content":[
+			{"name":"Foreign Aid",
+				"date":"Summer 2011",
+				"src":"",
+				"href":"http://exposedata.com/foreign/",
+				"description":"Exploring how US Foreign Aid is spent using D3js.  Iterations through many different sketch-visualizations."
+			},
+			{"name":"USDA Nutrition Intake",
+				"date":"Summer 2011",
+				"src":"",
+				"href":"http://exposedata.com/intake/",
+				"description":"Completed for the GAFTA Summer of Smart Competition on a team of three. First explorations of a large data set; setting the stage for a potential nutrition app."
+			},
+			{"name":"Cost of Living",
+				"date":"Winter 2012",
+				"src":"",
+				"href":"http://exposedata.com/costofliving/",
+				"description":"Exploring linked views with backbone.js and D3.js."
+			},
+			{
+			"name":"Disaster Strikes",
+			"date":"Summer 2011",
+			"src":"",
+			"href":"http://disaster.mmx-dns.com/",
+			"description":"Winner of Data In Sight 2011 data hackathon for Best Dynamic/Interactive Data Visualization."
+			}
+		]},
+		{
+		"name":"Web",
+		"content":[
+			{"name":"Project Albemarle",
+				"date":"Summer 2009",
+				"src":"",
+				"href":"http://projectalbemarle.com/",
+				"description":"Graphical exploration of Albemarle County infrastructure and water resources.  Worked a Virginia Summer with Professor Lucia Phinney from concept to final creation."
+			}
+		]},
+		{
+		"name":"Architecture",
+		"content":[
+			{"name":"Charlottesville, VA",
+				"date":"Spring 3rd Year Studio",
+				"src":"",
+				"description":""
+			},
+			{"name":"San Antonio, TX",
+				"date":"Fall 4th Year Studio",
+				"src":"",
+				"href":"",
+				"description":""
+			},
+			{"name":"Richmond, VA",
+				"date":"Spring 4th Year Studio",
+				"src":"",
+				"href":"",
+				"description":""
+			}
+		]},
+		{
+		"name":"Arts",
+		"content": [
+			{"name":"Abroad in Vicenza"},
+			{"name":"San Francisco"}
+		]
+		}
+]}
