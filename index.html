@@ -50,7 +50,8 @@
 				<h3>{{name}}</h3>
 				<table>
 				{{#content}}
-					<tr onclick="launch('{{href}}')">
+					<tr {{#if href}}onclick="launch('{{href}}')"{{/if}}
+							{{#if images}}onclick="show({{images}})"{{/if}}>
 						<td>
 							<img src="{{src}}" title="{{name}}" />
 						</td>
@@ -59,7 +60,9 @@
 								{{name}}
 								{{#if date}}<span class="date">{{date}}</span>{{/if}}
 							</h4>
+							{{#if description}}
 							<p>{{description}}</p>
+{{/if}}
 						</td>
 					</tr>
 				{{/content}}

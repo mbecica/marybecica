@@ -4,28 +4,28 @@
 		"content":[
 			{"name":"Foreign Aid",
 				"date":"Summer 2011",
-				"src":"",
+				"src":"img/data/foreign.png",
 				"href":"http://exposedata.com/foreign/",
 				"description":"Exploring how US Foreign Aid is spent using D3js.  Iterations through many different sketch-visualizations."
 			},
 			{"name":"USDA Nutrition Intake",
 				"date":"Summer 2011",
-				"src":"",
+				"src":"img/data/nutrition.png",
 				"href":"http://exposedata.com/intake/",
 				"description":"Completed for the GAFTA Summer of Smart Competition on a team of three. First explorations of a large data set; setting the stage for a potential nutrition app."
 			},
 			{"name":"Cost of Living",
 				"date":"Winter 2012",
-				"src":"",
+				"src":"img/data/costofliving.png",
 				"href":"http://exposedata.com/costofliving/",
 				"description":"Exploring linked views with backbone.js and D3.js."
 			},
 			{
 			"name":"Disaster Strikes",
 			"date":"Summer 2011",
-			"src":"",
+			"src":"img/data/disaster.png",
 			"href":"http://disaster.mmx-dns.com/",
-			"description":"Winner of Data In Sight 2011 data hackathon for Best Dynamic/Interactive Data Visualization."
+			"description":"Winner of Data In Sight 2011 data hackathon for Best Dynamic/Interactive Data Visualization.  Worked with a team of 5."
 			}
 		]},
 		{
@@ -33,7 +33,7 @@
 		"content":[
 			{"name":"Project Albemarle",
 				"date":"Summer 2009",
-				"src":"",
+				"src":"img/data/albemarle.jpg",
 				"href":"http://projectalbemarle.com/",
 				"description":"Graphical exploration of Albemarle County infrastructure and water resources.  Worked a Virginia Summer with Professor Lucia Phinney from concept to final creation."
 			}
@@ -43,27 +43,35 @@
 		"content":[
 			{"name":"Charlottesville, VA",
 				"date":"Spring 3rd Year Studio",
-				"src":"",
-				"description":""
+				"src":"img/cville/6.jpg",
+                "description":"An abandoned cotton mill, the IX Building sits on top of a pipe carrying half of Charlottesville's runoff to Pollack's Branch, a stream that connects to the James River. This project proposes to daylight the pipe, turning the site into a wet water park connecting pedestrians from downtown to the Rivanna Trail. Terraces of agriculture and wetland mats filter and slow the water before returning it to the stream. Parametric tent structures rise out of the muck at intersections and significant views; they house the Governmental agencies and NGOs that are charged with protecting water resources and advising citizen farming initiatives.",
+                "images":["img/cville/1.jpg","img/cville/2.jpg","img/cville/3.jpg","img/cville/4.jpg","img/cville/5.jpg","img/cville/6.jpg","img/cville/7.jpg","img/cville/8.jpg","img/cville/9.jpg","img/cville/10.jpg"]
 			},
 			{"name":"San Antonio, TX",
 				"date":"Fall 4th Year Studio",
-				"src":"",
-				"href":"",
-				"description":""
+				"src":"img/sanantonio/2.jpg",
+                "description":"Located on the beautiful Riverwalk and St. Mary's street in downtown San Antonio, this hotel and recording studio mediates the hot southern Texas sun with an undulating 'living wall' : a thickened screen wall for human and plant habitation. The screen is punctured through to reveal shared outdoor kitchen and dining rooms which are connected by open stairs and private balconies -- this exterior wall becomes an interior wall of the Riverwalk.",
+                "images":["img/sanantonio/1.jpg","img/sanantonio/2.jpg","img/sanantonio/3.jpg","img/sanantonio/4.jpg","img/sanantonio/5.jpg","img/sanantonio/6.jpg","img/sanantonio/7.jpg","img/sanantonio/8.jpg","img/sanantonio/9.jpg","img/sanantonio/10.jpg"]
 			},
 			{"name":"Richmond, VA",
 				"date":"Spring 4th Year Studio",
-				"src":"",
-				"href":"",
-				"description":""
+				"src":"img/richmond/7.jpg",
+				"description":"An exploration of Richmond, Virginia in the next 100 years, this project proposes how a city can adopt to rising sea levels.  Biosystems create new densities and diversities for circulation and energy.",
+                "images":["img/richmond/1.jpg","img/richmond/2.jpg","img/richmond/3.jpg","img/richmond/4.jpg","img/richmond/5.jpg","img/richmond/6.jpg","img/richmond/7.jpg","img/richmond/8.jpg","img/richmond/9.jpg","img/richmond/10.jpg","img/richmond/11.jpg","img/richmond/12.jpg","img/richmond/13.jpg","img/richmond/14.jpg","img/richmond/15.jpg","img/richmond/16.jpg"]
 			}
 		]},
 		{
 		"name":"Arts",
 		"content": [
-			{"name":"Abroad in Vicenza"},
-			{"name":"San Francisco"}
+			{"name":"Abroad in Vicenza, Italy",
+             "date":"Summer 2008",
+             "src":"img/vicenza/becica_vicenza5.jpg",
+             "images":["img/vicenza/becica_vicenza1.jpg","img/vicenza/becica_vicenza2.jpg","img/vicenza/becica_vicenza3.jpg","img/vicenza/becica_vicenza4.jpg","img/vicenza/becica_vicenza5.jpg","img/vicenza/becica_vicenza6.jpg"]
+            },
+			{"name":"San Francisco",
+             "date":"2010 - 2012",
+             "src":"",
+             "images":[]}
 		]
 		}
 ]}

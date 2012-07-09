@@ -226,7 +226,6 @@ width:100%;
 }
 #work table tr:hover td {
 cursor:pointer;
-background:#f4f4f4;
 }
 #work table tr td {
 padding:10px;

@@ -81,3 +81,7 @@ $(function() {
 var launch = function(href) {
 	window.open(href);
 }
+
+var show = function(images) {
+	//Nothing yet
+}
