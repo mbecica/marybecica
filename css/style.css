@@ -141,7 +141,8 @@ width:100%;
 height:36px;
 }
 .splashon header {
-position:relative;
+bottom:0;
+top:auto;
 }
 header h1 {
 float:left;
@@ -155,6 +156,9 @@ color:#f2f2f2;
 header h1 a:visited,
 header h1 a:active {
 color:#f2f2f2;
+}
+header h1 a:hover {
+color:#fff;
 }
 header #nav {
 float:right;
@@ -170,14 +174,11 @@ font-size:1.2em;
 text-decoration:none;
 }
 header #nav li a:hover {
-text-decoration:underline;
+text-decoration:none;
 color:#fff;
 }
 header li a:visited {
 color:#fff;
-}
-header li a.active {
-font-weight:bold;
 }
 header #links {
 float:left;
@@ -190,20 +191,28 @@ padding-right:8px;
 #links a.icon {
 font-size:1.6em;
 top:7px;
-color:#000;
+color:#888;
 text-decoration:none;
-text-shadow:0px 1px 0px #999;
 }
 #links a.icon:hover {
-text-shadow:0px 1px 0px #ccc;
+text-shadow:0px -1px 0px #000;
 }
 #main {
-padding:50px 20px;
+padding:10px 20px 50;
 display:none;
 }
 .splash {
-position:relative;
-background:#eee;
+background-image:url(../img/turner.jpg);
+background-repeat:no-repeat;
+background-position:center center; 
+background-attachment:fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height:100%;
+width:100%;
+position:fixed;
 }
 /* Resume */
 h2 {
